@@ -2,6 +2,10 @@ package com.sample.gouri.sample;
 
 import com.sample.gouri.UseStatic.usestatic;
 import com.sample.gouri.classsample.*;
+import com.sample.gouri.designpattern.AbstractFactoryPattern.AbstractFactory;
+import com.sample.gouri.designpattern.AbstractFactoryPattern.Color;
+import com.sample.gouri.designpattern.AbstractFactoryPattern.FactoryProducer;
+import com.sample.gouri.designpattern.SingletonPattern.SingleObject;
 import com.sample.gouri.inheritance.A;
 import com.sample.gouri.inheritance.BoxWeight;
 import com.sample.gouri.inheritance.inheritance;
@@ -9,6 +13,8 @@ import com.sample.gouri.overloading.overloading;
 import com.sample.gouri.stack.*;
 import com.sample.gouri.recursion.*;
 import com.sample.gouri.overriding.*;
+import com.sample.gouri.designpattern.FactoryPattern.*;
+
 
 import com.sample.*;
 
@@ -17,7 +23,69 @@ import com.sample.*;
  */
 public class App {
     public static void main(String[] args) {
+        //FactoryPattern();
+        //samples2();
+        //AbstractFactorySample();
+        SingletonPattern();
 
+    }
+
+    private static void SingletonPattern(){
+        //illegal construct
+        //Compile Time Error: The constructor SingleObject() is not visible
+        //SingleObject object = new SingleObject();
+
+        //Get the only object available
+        SingleObject object = SingleObject.getInstance();
+
+        //show the message
+        object.showMessage();
+    }
+
+    private static void  AbstractFactorySample(){
+        AbstractFactory shapeFactory = FactoryProducer.getFactory("SHAPE");
+        com.sample.gouri.designpattern.AbstractFactoryPattern.Shape shape1 = shapeFactory.getShape("CIRCLE");
+        shape1.draw();
+        com.sample.gouri.designpattern.AbstractFactoryPattern.Shape shape2 = shapeFactory.getShape("RECTANGLE");
+        shape2.draw();
+        com.sample.gouri.designpattern.AbstractFactoryPattern.Shape shape3 = shapeFactory.getShape("SQUARE");
+        shape3.draw();
+
+        AbstractFactory colorFactory = FactoryProducer.getFactory("COLOR");
+        Color color1 = colorFactory.getColor("RED");
+
+        color1.fill();
+
+        //get an object of Color Green
+        Color color2 = colorFactory.getColor("Green");
+
+        //call fill method of Green
+        color2.fill();
+
+        //get an object of Color Blue
+        Color color3 = colorFactory.getColor("BLUE");
+
+        //call fill method of Color Blue
+        color3.fill();
+}
+
+    private static void FactoryPattern(){
+        ShapeFactory sf = new ShapeFactory();
+        Shape circle = sf.getShape("CIRCLE");
+        circle.draw();
+
+        Shape rectangle = sf.getShape("RECTANGLE");
+        rectangle.draw();
+
+        Shape  squre = sf.getShape("SQUARE");
+        squre.draw();
+
+        Shape  nothing = sf.getShape("Nothing");
+        nothing.draw();
+
+    }
+
+    private static void samples2(){
         overriding1 ove1 = new overriding1();
         overriding2 ove2 = new overriding2();
         overriding3 ove3 = new overriding3();

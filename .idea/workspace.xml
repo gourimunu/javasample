@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccba32ff-ba95-464b-83a9-1345b502fc30" name="Default Changelist" comment="" />
+    <list default="true" id="ccba32ff-ba95-464b-83a9-1345b502fc30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/NoColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Nothing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Nothing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/SingletonPattern/SingleObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/gouri/sample/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/sample/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/gouri/sample/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sample/gouri/sample/App.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,27 +56,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="JPG" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="16" />
+          <entry key="java" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="16" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="3673" />
+          <entry key="java" value="4488" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="3673" />
+          <entry key="JAVA" value="4488" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -60,101 +89,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/ColorFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+              <folding>
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/sample/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            <state relative-caret-position="455">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#AbstractFactorySample#0;class#App#0" />
+                <element signature="method#FactoryPattern#0;class#App#0" />
+                <element signature="method#samples2#0;class#App#0" />
+                <element signature="method#Samples#0;class#App#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/overriding/overriding1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-              <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#145#146#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/overriding/overriding2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-              <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/overriding/overriding3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-              <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#165#166#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/inheritance/Box.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-              <folding>
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/inheritance/BoxWeight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/inheritance/inheritance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/inheritance/A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -167,6 +126,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -186,8 +148,30 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/inheritance/BoxWeight.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/overriding/overriding1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/overriding/overriding2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/sample/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/overriding/overriding3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Color.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Nothing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Square.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Red.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Blue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Green.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/NoColor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/FactoryProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Circle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Nothing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Square.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/ShapeFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/ColorFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/ShapeFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/SingletonPattern/SingleObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/sample/App.java" />
       </list>
     </option>
   </component>
@@ -219,6 +203,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -256,14 +243,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="overriding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sampleproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sampleproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -276,11 +255,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543446805457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543476228909" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sample.gouri.designpattern.AbstractFactoryPattern" />
+      <recent name="com.sample.gouri.designpattern.FactoryPattern" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -333,6 +318,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.5009597" side_tool="true" weight="0.2926984" />
       <window_info id="Image Layers" />
@@ -340,10 +326,10 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" weight="0.32975295" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.21160042" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.2964554" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21160042" />
       <window_info anchor="bottom" id="Problems" weight="0.328125" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32860824" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.34263393" />
@@ -550,12 +536,195 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Capture.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Nothing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Blue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Red.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Nothing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/NoColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Green.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/FactoryProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/SingletonPattern/SingleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/AbstractFactory.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/ColorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/sample/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        <state relative-caret-position="455">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#AbstractFactorySample#0;class#App#0" />
+            <element signature="method#FactoryPattern#0;class#App#0" />
+            <element signature="method#samples2#0;class#App#0" />
+            <element signature="method#Samples#0;class#App#0" />
           </folding>
         </state>
       </provider>
