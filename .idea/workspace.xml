@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccba32ff-ba95-464b-83a9-1345b502fc30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Blue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/ColorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/FactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Green.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/NoColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Nothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Nothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/FactoryPattern/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/SingletonPattern/SingleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/enumerations/enumeration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sample/gouri/sample/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sample/gouri/sample/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/gouri/sample/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sample/gouri/sample/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sample/gouri/sample/App.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,27 +36,27 @@
         <counts>
           <entry key="JPG" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="78" />
+          <entry key="java" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="78" />
+          <entry key="JAVA" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="4488" />
+          <entry key="java" value="4747" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="4488" />
+          <entry key="JAVA" value="4747" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -89,31 +67,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/ColorFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-              <folding>
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/sample/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="343">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#SingletonPattern#0;class#App#0" />
                 <element signature="method#AbstractFactorySample#0;class#App#0" />
                 <element signature="method#FactoryPattern#0;class#App#0" />
                 <element signature="method#samples2#0;class#App#0" />
                 <element signature="method#Samples#0;class#App#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/enumerations/enumeration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -171,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/AbstractFactoryPattern/AbstractFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/designpattern/SingletonPattern/SingleObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/enumerations/enumeration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sample/gouri/sample/App.java" />
       </list>
     </option>
@@ -243,7 +219,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="enumerations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,7 +231,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543476228909" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543500849940" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -715,12 +691,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/enumerations/enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sample/gouri/sample/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="343">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#SingletonPattern#0;class#App#0" />
             <element signature="method#AbstractFactorySample#0;class#App#0" />
             <element signature="method#FactoryPattern#0;class#App#0" />
             <element signature="method#samples2#0;class#App#0" />

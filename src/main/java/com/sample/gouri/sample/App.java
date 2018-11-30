@@ -6,6 +6,7 @@ import com.sample.gouri.designpattern.AbstractFactoryPattern.AbstractFactory;
 import com.sample.gouri.designpattern.AbstractFactoryPattern.Color;
 import com.sample.gouri.designpattern.AbstractFactoryPattern.FactoryProducer;
 import com.sample.gouri.designpattern.SingletonPattern.SingleObject;
+import com.sample.gouri.enumerations.enumeration;
 import com.sample.gouri.inheritance.A;
 import com.sample.gouri.inheritance.BoxWeight;
 import com.sample.gouri.inheritance.inheritance;
@@ -26,8 +27,25 @@ public class App {
         //FactoryPattern();
         //samples2();
         //AbstractFactorySample();
-        SingletonPattern();
+        //SingletonPattern();
 
+        enumeration.Apple ap;
+
+        ap = enumeration.Apple.RedDel;
+
+        Thread t = Thread.currentThread();
+        System.out.println("Current thread " + t);
+        t.setName("Gouri");
+        System.out.println("Current thread " + t);
+
+        try{
+            for (int i = 0; i< 10000; i++)
+                System.out.println(i);
+                Thread.sleep(100);
+        }
+        catch(InterruptedException iEx){
+            System.out.println("Main Thread Interrupt");
+        }
     }
 
     private static void SingletonPattern(){
